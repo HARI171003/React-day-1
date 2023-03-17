@@ -25,6 +25,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +40,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script> 
+      function msgAlert()
+      {
+        alert("Message from Javascript Alert!");
+        console.log("MEssage to developer")
+      }
+      function obj()
+      {
+        let myobject={name:"Madras"};
+        let newObject=myobject;
+        myobject.name="chennai";
+        console.log(myobject);
+        console.log(newObject);
+        let myarray=["a","e","i","o"];
+        let vowelArray=myarray;
+        myarray.push("u");
+        console.log(myarray);
+        console.log(vowelArray);
+      
+        alert("Check the Console Output");
+      }
+  </script>
   </body>
+  
 </html>

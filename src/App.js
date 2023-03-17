@@ -4,20 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='day1 1'>
+     
+       <h1>"let we see the output of "JAVAScript</h1>
+       <button onClick={window['msgAlert']}> click here</button>
+s
+      </div>
+      <div className='day1 2'>
+        <h1>Reference data types uses Memory</h1>
+        <button id="bt2" onClick={window['obj']}>day2 alert</button>
+      </div>
+    
     </div>
   );
 }
